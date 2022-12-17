@@ -7,3 +7,6 @@ In a DHT, each node is responsible for storing and forwarding (key, value) pairs
 One of the main benefits of DHTs is that they allow for efficient and decentralized data storage and retrieval. Because each node is responsible for storing and forwarding (key, value) pairs within a certain range of keys, there is no need for a central server or index to handle lookups. This makes DHTs highly scalable and resilient to failures, as the loss of any single node will not disrupt the system as a whole.
 
 There are several different types of DHTs, including Chord, Kademlia, and Pastry. Each type of DHT has its own specific characteristics and trade-offs, but they all share the basic principles of distributed data storage and retrieval described above                         
+
+## Implementation
+The examples creates a Kademlia DHT with a memory store, inserts a (key, value) pair into the DHT, and then retrieves the value for the given key. The key and value are passed as command line arguments, and the local node's address is also passed as a command line argument.
